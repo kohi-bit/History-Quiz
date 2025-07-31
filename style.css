@@ -1,0 +1,71 @@
+body{
+    background: linear-gradient(135deg, rgb(131, 255, 29), yellow);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    flex-shrink: 1;
+}
+
+.MainQuestion{
+    font-weight: bold;
+    font-size: 25px;
+}
+.AnswerButton{
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+
+    height: 60px;
+    width: auto;
+
+
+    margin-top: 50px;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+
+}
+.AnswerButton:hover{
+    background-color: bisque;
+    color: black;
+}
+
+
+
+
+
+#QuizArea{
+    background-color: white;
+    color: black;
+    height: auto;
+    width: auto;
+    border-radius: 16px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 20px;
+
+}
+
+
+#credit{
+    color: rgb(54, 54, 54);
+}
+
+.Counter{
+    color: black;
+
+    display: flex;
+    flex-direction: row;
+}
